@@ -1,0 +1,32 @@
+// COLORS
+$darkcyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$verydarkblue: hsl(212, 21%, 14%);
+$darkgrayishblue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+
+// FONTS
+
+//Montserrat
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+//Fraunces
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+
+
+// BODY
+
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'Montserrat', 'Fraunces', sans-serif;
+    max-width: 1440px;
+    max-height: 900px;
+    background-color: $cream;
+    .card {
+        max-width: 800px;
+    }
+}

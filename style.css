@@ -1,0 +1,17 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: 'Montserrat', 'Fraunces', sans-serif;
+  max-width: 1440px;
+  max-height: 900px;
+  background-color: #f2ebe3;
+}
+
+body .card {
+  max-width: 800px;
+}
+/*# sourceMappingURL=style.css.map */
