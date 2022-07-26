@@ -28,5 +28,7 @@ body {
     background-color: $cream;
     .card {
         max-width: 800px;
+        border-radius: 20px;
+        margin: 20px auto;
     }
 }

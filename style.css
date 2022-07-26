@@ -13,5 +13,7 @@ body {
 
 body .card {
   max-width: 800px;
+  border-radius: 20px;
+  margin: 20px auto;
 }
 /*# sourceMappingURL=style.css.map */
