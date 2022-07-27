@@ -16,4 +16,9 @@ body .card {
   margin: 20px auto;
   background-color: white;
   display: flex;
+}
+body .card .picture img {
+  border-radius: 10px 0px 0px 10px;
+  width: 400px;
+  height: 500px;
 }/*# sourceMappingURL=style.css.map */
