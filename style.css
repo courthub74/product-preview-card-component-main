@@ -17,7 +17,7 @@ body .card {
 }
 body .card .picture img {
   border-radius: 10px 0px 0px 10px;
-  width: 350px;
+  width: 330px;
   height: 100%;
   position: relative;
 }
@@ -68,7 +68,7 @@ body .card .textbody .addbutton button {
 }
 body .card .textbody .addbutton button .buttonletters {
   font-family: "Montserrat", "Times", serif;
-  font-weight: 600;
+  font-weight: 500;
   padding: 5px;
   position: relative;
   top: -2px;
