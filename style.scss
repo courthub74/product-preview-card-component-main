@@ -23,13 +23,15 @@ body {
     background-color: $cream;
     .card {
         max-width: 650px;
+        width: 600px;
+        height: 400px;
         border-radius: 20px;
         margin: 20px auto;
         background-color: white;
         display: flex;
         .picture img {
             border-radius: 10px 0px 0px 10px;
-            width: 330px;
+            width: 300px;
             height: 100%;
             position: relative;
         }
@@ -46,11 +48,12 @@ body {
             }
             .header h1 {
                 width: 185px;
-                font-weight: bolder;
+                font-size: x-large;
                 font-family: 'Fraunces', 'Times New Roman', Times, serif;
+                font-weight: bolder;
             }
             .description p {
-                width: 220px;
+                width: 230px;
                 font-family: 'Montserrat', 'Times New Roman', Times, serif;
                 color: $darkgrayishblue;
             }
