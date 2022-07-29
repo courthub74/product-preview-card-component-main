@@ -5,18 +5,14 @@ $verydarkblue: hsl(212, 21%, 14%);
 $darkgrayishblue: hsl(228, 12%, 48%);
 $white: hsl(0, 0%, 100%);
 
-// FONTS
+//FONTS
 
 //Montserrat
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
-
 //Fraunces
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 
-
-// BODY
-
+//BODY
 body {
     text-align: center;
     margin: 0px;
@@ -45,17 +41,17 @@ body {
             padding-left: 30px;
             .header p {
                 color: $darkgrayishblue;
-                font-size: 13px;
-                font-family: 'Fraunces', sans-serif;
+                font-size: 12px;
+                font-family: 'Montserrat', sans-serif;
             }
             .header h1 {
                 width: 185px;
-                font-weight: 700;
-                font-family: 'Montserrat', sans-serif;
+                font-weight: bolder;
+                font-family: 'Fraunces', sans-serif;
             }
             .description p {
-                width: 185px;
-                font-family: 'Fraunces' sans-serif;
+                width: 220px;
+                font-family: 'Montserrat', 'Times New Roman', Times, serif;
                 color: $darkgrayishblue;
             }
 
@@ -63,6 +59,7 @@ body {
                 color: $darkcyan;
                 font-size: 40px;
                 font-weight: bolder;
+                font-family: 'Fraunces', sans-serif;
             }
             .prices .original {
                 padding: 15px;
@@ -71,7 +68,6 @@ body {
             }
 
             .addbutton {
-                // padding-top: 30px;
                 padding: 20px 0px 40px 0px;
             }
 
