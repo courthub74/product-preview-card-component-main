@@ -82,8 +82,27 @@ body .card .textbody .addbutton button .buttonletters {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    padding: 0px;
+  }
   body .card {
     width: 375px;
+    display: flex;
+    flex-direction: column;
+  }
+  body .card .picture img {
+    border-radius: 10px 10px 0px 0px;
+    width: 370px;
+    height: 100%;
+    position: relative;
+  }
+  body .card .textbody {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    row-gap: 12px;
+    padding: 25px;
+    width: 100%;
   }
   body .card .img img {
     width: 375px;

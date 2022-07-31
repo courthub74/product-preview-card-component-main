@@ -104,8 +104,25 @@ body {
 //Responsive Design
 @media screen and (max-width: 600px) {
     body {
+        padding: 0px;
         .card {
             width: 375px;
+            display: flex;
+            flex-direction: column;
+            .picture img {
+                border-radius: 10px 10px 0px 0px;
+                width: 370px;
+                height: 100%;
+                position: relative;
+            }
+            .textbody {
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                row-gap: 12px;
+                padding: 25px;
+                width: 100%;
+            }
             .img {
                 img {
                     width: 375px;
